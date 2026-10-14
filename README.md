@@ -19,3 +19,4 @@ Manifest LLM gateway (`https://app.manifest.build/v1`) as the model backend.
 | `AC_API_KEY` | Daemon API key minted in the AgentConnect UI |
 | `MANIFEST_API_KEY` | Manifest gateway key (droid LLM backend) |
 | `FACTORY_API_KEY` | Factory auth for droid |
+# trigger
