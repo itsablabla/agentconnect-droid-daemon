@@ -1,0 +1,20 @@
+{
+  "id": "droid",
+  "name": "droid",
+  "displayName": "Droid (Manifest)",
+  "status": "active",
+  "runtime": "factory-droid",
+  "description": "Factory Droid coding agent via Manifest LLM gateway",
+  "runtimeOverrides": {
+    "model": "custom:Manifest-Auto-0",
+    "env": [
+      { "name": "FACTORY_API_KEY", "value": "${FACTORY_API_KEY}" }
+    ],
+    "secrets": []
+  },
+  "workspace": {
+    "mode": "from-scratch",
+    "isolation": "shared",
+    "path": "/root/.agentconnect/agents/droid/workspace"
+  }
+}
